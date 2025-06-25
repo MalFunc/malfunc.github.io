@@ -1,5 +1,15 @@
 # Malfunc CTF Writeups
 
+---
+
+## 🚩 Navigasi Cepat
+- [Tentang Saya](#-tentang-saya)
+- [Writeup Terbaru](#-daftar-writeup-terbaru)
+- [Kategori](#-kategori)
+- [Kontak](#-kontak)
+
+---
+
 Selamat datang di blog CTF milik Malfunc!
 
 Saya adalah seorang pemain CTF yang suka berbagi writeup, tips, dan pengalaman seputar dunia Capture The Flag, cybersecurity, dan hacking.
@@ -16,7 +26,7 @@ Saya adalah seorang pemain CTF yang suka berbagi writeup, tips, dan pengalaman s
 
 ## 📝 Daftar Writeup Terbaru
 
-- [Healthkathon 2024 - Web Exploit 1](writeups/healthkathon2024-web1.md)
+- 🆕 [Healthkathon 2024 - Web Exploit 1](writeups/healthkathon2024-web1.md)
 - [TryHackMe - Simple CTF](writeups/thm-simplectf.md)
 - [PicoCTF 2025 - Forensics: Hidden Message](writeups/picoctf2025-forensics-hidden.md)
 
@@ -25,11 +35,11 @@ Saya adalah seorang pemain CTF yang suka berbagi writeup, tips, dan pengalaman s
 ---
 
 ## 🔎 Kategori
-- [Web Exploit](categories/web.md)
-- [Reverse Engineering](categories/re.md)
-- [Forensics](categories/forensics.md)
-- [Crypto](categories/crypto.md)
-- [Misc](categories/misc.md)
+- [Web Exploit](categories/web.md) — Eksploitasi aplikasi web, bug, dan bypass
+- [Reverse Engineering](categories/re.md) — Analisis dan pembalikan program
+- [Forensics](categories/forensics.md) — Investigasi digital, file, dan artefak
+- [Crypto](categories/crypto.md) — Kriptografi dan dekripsi
+- [Misc](categories/misc.md) — Lain-lain, scripting, OSINT, dll
 
 ---
 
@@ -38,4 +48,7 @@ Ingin diskusi atau kolaborasi? DM via LinkedIn atau email ke malikdayat1207@gmai
 
 ---
 
-> Blog ini dibuat dengan ❤️ untuk komunitas CTF Indonesia.
+<div align="center" style="font-size:0.95em; color:gray;">
+Blog ini dibuat dengan ❤️ untuk komunitas CTF Indonesia.<br/>
+Terinspirasi layout modern dari 0xdf.gitlab.io & Nightmare (mdBook).
+</div>

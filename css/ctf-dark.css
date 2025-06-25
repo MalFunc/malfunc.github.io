@@ -1,7 +1,7 @@
 body {
   background: #181c20;
   color: #e0e6ed;
-  font-family: 'Fira Mono', 'JetBrains Mono', 'Consolas', 'Menlo', monospace;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   font-size: 1.08em;
   margin: 0;
   padding: 0;
@@ -14,11 +14,38 @@ header, .post-header {
   text-align: center;
   border-bottom: 2px solid #2e323a;
   letter-spacing: 1px;
+  font-family: 'Fira Mono', 'JetBrains Mono', monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffb347;
   font-family: 'Fira Mono', 'JetBrains Mono', monospace;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+section, main, .post-content {
+  max-width: 700px;
+  margin: 2.5em auto;
+  background: #23272e;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #000a;
+  padding: 2.2em 2em 2em 2em;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+section:hover, main:hover, .post-content:hover {
+  box-shadow: 0 4px 32px #000c;
+  transform: translateY(-2px) scale(1.01);
+}
+
+ul, ol {
+  margin-left: 1.5em;
+  line-height: 1.7;
+  font-size: 1.08em;
+}
+
+li {
+  margin-bottom: 0.3em;
 }
 
 a {
@@ -31,31 +58,13 @@ a:hover {
   text-decoration: underline;
 }
 
-section, main, .post-content {
-  max-width: 700px;
-  margin: 2.5em auto;
-  background: #23272e;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px #000a;
-  padding: 2.2em 2em 2em 2em;
-}
-
-hr {
-  border: none;
-  border-top: 1.5px solid #2e323a;
-  margin: 2.5em 0;
-}
-
-ul, ol {
-  margin-left: 1.5em;
-}
-
 code, pre {
   background: #23272e;
   color: #ffb347;
   border-radius: 6px;
   padding: 0.2em 0.5em;
   font-size: 1em;
+  font-family: 'Fira Mono', 'JetBrains Mono', 'Consolas', 'Menlo', monospace;
 }
 pre {
   padding: 1em;
@@ -71,7 +80,6 @@ blockquote {
   font-style: italic;
 }
 
-/* Kategori dan tag */
 .category-list, .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +100,6 @@ blockquote {
   color: #23272e;
 }
 
-/* Tombol */
 .button {
   background: #ffb347;
   color: #23272e;
@@ -111,7 +118,6 @@ blockquote {
   border: 1px solid #ffb347;
 }
 
-/* Responsive */
 @media (max-width: 800px) {
   section, main, .post-content {
     max-width: 98vw;
