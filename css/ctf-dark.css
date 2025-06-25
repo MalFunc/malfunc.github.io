@@ -1,0 +1,120 @@
+body {
+  background: #181c20;
+  color: #e0e6ed;
+  font-family: 'Fira Mono', 'JetBrains Mono', 'Consolas', 'Menlo', monospace;
+  font-size: 1.08em;
+  margin: 0;
+  padding: 0;
+}
+
+header, .post-header {
+  background: #23272e;
+  color: #ffb347;
+  padding: 2.5em 0 1.2em 0;
+  text-align: center;
+  border-bottom: 2px solid #2e323a;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffb347;
+  font-family: 'Fira Mono', 'JetBrains Mono', monospace;
+}
+
+a {
+  color: #6ec1e4;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ffb347;
+  text-decoration: underline;
+}
+
+section, main, .post-content {
+  max-width: 700px;
+  margin: 2.5em auto;
+  background: #23272e;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #000a;
+  padding: 2.2em 2em 2em 2em;
+}
+
+hr {
+  border: none;
+  border-top: 1.5px solid #2e323a;
+  margin: 2.5em 0;
+}
+
+ul, ol {
+  margin-left: 1.5em;
+}
+
+code, pre {
+  background: #23272e;
+  color: #ffb347;
+  border-radius: 6px;
+  padding: 0.2em 0.5em;
+  font-size: 1em;
+}
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 4px solid #ffb347;
+  background: #23272e;
+  color: #b0b8c1;
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  font-style: italic;
+}
+
+/* Kategori dan tag */
+.category-list, .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  margin: 1.5em 0;
+}
+.category-list a, .tag-list a {
+  background: #181c20;
+  color: #ffb347;
+  border-radius: 6px;
+  padding: 0.3em 0.9em;
+  font-size: 0.98em;
+  border: 1px solid #2e323a;
+  transition: background 0.2s, color 0.2s;
+}
+.category-list a:hover, .tag-list a:hover {
+  background: #ffb347;
+  color: #23272e;
+}
+
+/* Tombol */
+.button {
+  background: #ffb347;
+  color: #23272e;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  font-family: inherit;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background 0.2s, color 0.2s;
+}
+.button:hover {
+  background: #23272e;
+  color: #ffb347;
+  border: 1px solid #ffb347;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  section, main, .post-content {
+    max-width: 98vw;
+    padding: 1.2em 0.5em;
+  }
+}
